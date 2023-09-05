@@ -4,7 +4,7 @@
  - example1.R contains a simple application of the FC-DF with given hyper-parameters values.
  - example2.R extends the first example including the search for suitable hyper-parameter values.
  
-  In addition, public data sets used in the work  *Fuzzy classification with distance-based depth prototypes: High-dimensional Unsupervised and/or Supervised problems*, as well as the R files (AlizadehReproducibility.R, ClevelandReproducibility.R) including the performed analysis are included. A docker container is provided, and instructions for downloading and running it are given in a subsequent section.
+  In addition, public data sets used in the work  *Fuzzy classification with distance-based depth prototypes: High-dimensional Unsupervised and/or Supervised problems*, as well as the R files (AlizadehReproducibility.R, ClevelandReproducibility.R) including the performed analysis are included. A docker image is provided, and instructions for downloading and running it are given in a subsequent section.
 
 The source of the public data set are:
  - A. A. Alizadeh, M. B. Eisen, R. E. Davis, et al., Distinct types of diffuse large b-cell lymphoma identified by gene expression profiling, *Nature*, (2000), 403, 503–511
@@ -48,9 +48,9 @@ Rscript example1.R
 Rscript example2.R
 ```
  
-## Docker container for reproducibility
+## Docker image for reproducibility
 
-A docker container for testing reproducibility of the results presented in the paper is hosted in DockerHub.
+A docker image for testing reproducibility of the results presented in the paper is hosted in DockerHub.
 
 To download it:
 
