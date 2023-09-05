@@ -14,7 +14,8 @@ The source of the public data set are:
  
  You might need to install the libraries *dplyr*, *fclust*, *mnormt*, *ICGE*, *splitTools* if not already present in your R installation.
 
-root@fb8b4292bc50:/root# R 
+```bash
+root@fb8b4292bc50:/root# R
 
 R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
 Copyright (C) 2022 The R Foundation for Statistical Computing
@@ -35,8 +36,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 > install.packages(c("dplyr", "fclust", "mnormt", "ICGE", "splitTools"))
-
- 
+```
 
  
 ## Docker container
