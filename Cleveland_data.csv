@@ -1,4 +1,4 @@
-Age;Pressure;Cholesterol;oldpeak ;heart_rate;exang;Sugar;electrocardiographic;Sex;chest_pain_type;slope;ca;thal;Group;Classes
+Age;Pressure;Cholesterol;oldpeak;heart_rate;exang;Sugar;electrocardiographic;Sex;chest_pain_type;slope;ca;thal;Group;Classes
 77;135;252;0;172;0;0;2;0;3;1;0;3;0;MORE_CHANCE
 70;120;219;1,6;158;0;0;0;0;3;2;0;3;0;MORE_CHANCE
 69;108;309;0;156;0;0;0;1;2;1;0;7;0;MORE_CHANCE
