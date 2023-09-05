@@ -38,7 +38,46 @@ Type 'q()' to quit R.
 > install.packages(c("dplyr", "fclust", "mnormt", "ICGE", "splitTools"))
 ```
 
+The examples can be run from the command line:
+
+```bash
+Rscript example1.R
+```
+
+```bash
+Rscript example2.R
+```
  
-## Docker container
- 
+## Docker container for reproducibility
+
+A docker container for testing reproducibility of the results presented in the paper is hosted in DockerHub.
+
+To download it:
+
+```bash
+docker pull jmartinezot/fc-df
+```
+
+To run it:
+
+```bash
+docker run -it --rm -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix fc-df /bin/bash -c 'cat /fc-df.readme.txt; cd /fc-df; bash'
+```
+
+The container shows a README file at the start, with instructions to run the code:
+
+```bash
+
+This is the docker container associated to the https://github.com/rsait/FC-DF repository, and provided for replicability of the results presented in the paper *Fuzzy classification with distance-based depth prototypes: High-dimensional Unsupervised and/or Supervised problems*.
+
+To obtain the results presented in the paper, please just execute the following commands:
+
+Rscript AlizadehReproducibility.R
+Rscript ClevelandReproducibility.R
+
+The examples of the repository can also be executed:
+
+Rscript example1.R
+Rscript example2.R
+```
  
