@@ -58,6 +58,12 @@ To download it:
 docker pull jmartinezot/fc-df
 ```
 
+You could add a more convenient image tag:
+
+```bash
+docker tag jmartinezot/fc-df:latest fc-df:latest
+```
+
 To run it:
 
 ```bash
